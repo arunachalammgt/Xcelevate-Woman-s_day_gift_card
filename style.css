@@ -1,0 +1,227 @@
+body{
+font-family: 'Segoe UI', Arial, sans-serif;
+margin:0;
+padding:0;
+text-align:center;
+
+/* Attractive gradient background */
+background:linear-gradient(135deg,#ff9ecb,#ffd6e7,#ffeaf4);
+
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+/* Main container */
+
+.container{
+
+background:white;
+
+padding:40px 50px;
+
+border-radius:20px;
+
+width:700px;
+max-width:90%;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+
+}
+
+/* Title */
+
+h1{
+color:#ff2f74;
+font-size:32px;
+margin-bottom:10px;
+}
+
+/* Intro text */
+
+.intro{
+margin-top:10px;
+color:#555;
+line-height:1.6;
+font-size:16px;
+}
+
+/* Highlight text */
+
+.highlight{
+font-weight:bold;
+color:#ff2f74;
+margin-top:10px;
+}
+
+/* Search box */
+
+.search-box{
+margin-top:25px;
+}
+
+/* Input */
+
+input{
+
+padding:12px;
+font-size:16px;
+
+width:240px;
+
+border-radius:8px;
+border:1px solid #ccc;
+
+outline:none;
+
+transition:0.3s;
+}
+
+input:focus{
+border-color:#ff2f74;
+box-shadow:0 0 5px #ffb6cf;
+}
+
+/* Button */
+
+button{
+
+padding:12px 22px;
+
+font-size:16px;
+
+margin-left:10px;
+
+background:#ff2f74;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+background:#e61e63;
+transform:scale(1.05);
+
+}
+
+/* Gift Card */
+
+.card{
+
+display:none;
+
+margin-top:35px;
+
+padding:30px;
+
+background:rgba(0,0,0,0.75);
+
+color:white;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+
+animation:pop 0.6s ease;
+
+}
+
+/* Card animation */
+
+@keyframes pop{
+
+0%{
+transform:scale(0.6);
+opacity:0;
+}
+
+100%{
+transform:scale(1);
+opacity:1;
+}
+
+}
+
+/* Ribbon */
+
+.ribbon{
+
+position:absolute;
+
+background:#ff2f74;
+
+color:white;
+
+padding:6px 14px;
+
+font-size:13px;
+
+border-radius:0 0 10px 0;
+
+}
+
+/* Message */
+
+#cardMessage{
+
+margin-top:15px;
+
+line-height:1.6;
+
+font-size:16px;
+
+max-height:200px;
+
+overflow-y:auto;
+
+padding-right:6px;
+
+}
+
+/* Tag */
+
+.tag{
+margin-top:25px;
+}
+
+.tag-content{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:10px;
+
+}
+
+/* Logo */
+
+.logo{
+width:30px;
+height:30px;
+border-radius:50%;
+}
+
+/* Error text */
+
+#notfound{
+
+margin-top:15px;
+
+color:red;
+
+font-weight:bold;
+
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Women's Day Gift Card</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Confetti library -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🌸 Happy Women's Day 🌸</h1>
+
+<div class="intro">
+
+<p>
+International Women's Day celebrates the strength, achievements,
+and contributions of women around the world.
+</p>
+
+<p>
+At <b>Xcelevate Skills Foundation</b>, we proudly celebrate the
+amazing women who inspire us every day with their dedication
+and leadership.
+</p>
+
+<p class="highlight">
+Enter your name below to discover your special Women's Day message.
+</p>
+
+</div>
+
+<div class="search-box">
+
+<input type="text" id="username" placeholder="Enter your name">
+<button onclick="findCard()">Open My Gift</button>
+
+</div>
+
+<div class="card" id="card">
+
+<div class="ribbon">Special Wish</div>
+
+<h2 id="cardName"></h2>
+
+<p id="cardMessage"></p>
+
+<div class="tag">
+
+<div class="tag-content">
+
+<img src="logo.jfif" class="logo">
+
+<div class="tag-text">
+From ❤️ <br>
+<b>Xcelevate Skills Foundation</b>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<p id="notfound"></p>
+
+</div>
+
+<!-- Music -->
+<audio id="giftMusic" src="music.mp4"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
