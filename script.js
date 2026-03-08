@@ -12,7 +12,8 @@ const giftData = {
 "Srimathi":"Happy Women’s Day! Your helping nature and selfless dedication truly reflect the spirit of a Karma Yogi in your work. The sincerity and commitment you bring every day inspire everyone around you.Wishing you continued success, happiness, and many meaningful achievements ahead!",
 "Eram":"Happy Women’s Day! Your supportive nature and lively, talkative personality bring great energy to the team. You always encourage others and make every moment more engaging and enjoyable.Wishing you continued happiness, success, and many wonderful achievements ahead!",
 "Sana":"Happy Women’s Day! Your supportive nature and the way you actively engage with the team make a big difference in creating a positive and collaborative environment. Your encouragement and teamwork inspire everyone around you.Wishing you continued success, happiness, and many wonderful achievements ahead!",
-"Aritri":"Happy Women’s Day! Your strong character and values truly reflect the kind of person who inspires trust and respect from everyone around you. Your positive attitude and integrity make you a wonderful presence in the team.Wishing you continued happiness, success, and many great achievements ahead!"
+"Aritri":"Happy Women’s Day! Your strong character and values truly reflect the kind of person who inspires trust and respect from everyone around you. Your positive attitude and integrity make you a wonderful presence in the team.Wishing you continued happiness, success, and many great achievements ahead!",
+"Anubha":"Happy Women’s Day, Ma’am.Even though we may not always see you directly, your hard work and dedication are clearly visible through the wonderful way our digital media is managed. Your creativity, commitment, and professionalism play an important role in presenting our work to the outside world.Behind every successful digital platform, there is a person who works with passion and responsibility, and you are that person for us. We truly appreciate the effort, innovation, and consistency you bring to managing our digital presence.Thank you for your valuable contribution and for doing such a wonderful job. Wishing you a very Happy Women’s Day filled with appreciation, success, and happiness."
 };
 function findCard(){
 
@@ -48,5 +49,6 @@ document.getElementById("card").style.display="none";
 document.getElementById("notfound").innerText="No gift found for this name.";
 
 }
+
 
 }
